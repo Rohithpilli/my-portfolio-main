@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith's-portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/f8bec6514f.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <li> <a href="#home" style="--i:1" class="active">Home</a></li>
+                <li><a href="#about" style="--i:2">About</a></li>
+                <li> <a href="#projects" style="--i:3">projects</a></li>
+                <li> <a href="#certifications" style="--i:3">certifications</a></li>
+                <li> <a href="#contact" style="--i:4">contact me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <section class="home">
+        <div id="home">
+            <div class="home-content">
+                <h3>Hello,Its Me</h3>
+                <h1>Pilli Rohith</h1>
+                <h3>Welcome to my portfolio<span class="element"></span></h3>
+
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------about----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="rohithpro.jpg" alt="Rohith">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi guys!,I'm Pilli Rohith pursuing B.tech in Nalla Narashima Reddy Group of institutions and I'm for
+                        electronics background.I am a dedicated and ambitious individual seeking a fulfilling and
+                        intellectually stimulating career within an organization. My primary goal is to make a positive
+                        contribution to the organization while also nurturing personal and professional growth. I aspire
+                        to find an environment that allows me to leverage my knowledge and interpersonal skills for the
+                        mutual benefit of both the organization and myself. I am eager to embark on a journey where I
+                        can apply my expertise and constantly learn, striving towards the achievement of common goals.
+                        With a strong work ethic and a passion for continuous improvement, I am ready to embrace
+                        challenges and make a meaningful impact. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>c,python</span><br>programing languages</li>
+                            <li><span>html, css , js</span><br>frontend</li>
+                            <li><span>MATlab, linux</span><br>forth gen programing language</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-current</span><br>Electronics and Communication Engineering at Nalla Narashima Reddy Group
+                                 of institutions</li>
+                            <li><span>2021-2023</span><br>intermediate at Narayana Junior College</li>
+                            <li><span>2021</span><br>Holy Angels High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------projects------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>PORTFOLIO-WEBDESIGN</h2>
+                    <p> Within this portfolio, you'll find a carefully curated collection of my best work, showcasing my
+                        skills and expertise as a web designer. Each project presented here represents a unique
+                        challenge and an opportunity for creative problem-solving. I've poured my passion into designing
+                        these websites, focusing on creating visually stunning and user-friendly experiences. I invite
+                        you to explore this portfolio to get a glimpse of my design style, attention to detail, and
+                        commitment to delivering exceptional results </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SEVEN-SEGMENT-DRIVER USING VIVADO</h2>
+                    <p>The student record handling project aimed to develop a robust and efficient system for managing
+                        student records in an educational institution. Recognizing the importance of accurate and
+                        organized data management, I set out to create a solution that would streamline administrative
+                        tasks and improve overall efficiency. </p>
+                    <a href="https://github.com/20R01A0415/student-record-handling">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------certifications------------------------>
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="certification-list">
+                <div class="certificate">
+                    <img src="you.png">
+                    <div class="layer">
+                        <h3>infosys</h3>
+                        <p>The Infosys certification likely covered various aspects of IoT, including IoT architecture, data analytics, security concerns, and IoT infrastructure.
+                             Having this certification can boost your career prospects, as IoT skills are in high demand.</p>
+                        <a
+                            href="https://thingqbator.nasscomfoundation.org/home/student"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="google.png">
+                    <div class="layer">
+                        <h3>google</h3>
+                        <p>I am excited to introduce you to my certification in the Google Crash Course on Python. This
+                            certification represents my dedication to mastering Python programming and showcases my
+                            proficiency in utilizing Python for various applications</p>
+                        <a
+                            href="https://www.coursera.org/account/accomplishments/certificate/MA4YPVQTAD42?utm_source=android&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="whatsapp.jpg">
+                    <div class="layer">
+                        <h3>AWS</h3>
+                        <p>The AWS Cloud Computing course provides comprehensive training on utilizing Amazon Web
+                            Services (AWS) to build and manage scalable, reliable, and secure cloud solutions. </p>
+                        <a href="https://www.credly.com/badges/fedfda13-aa5e-435f-8935-e9a874025cf2/public_url">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/drive/u/0/folders/1zQvzx18OoU2ML4oft_ZGiFN7d6y6kxsn" class="btn">See
+                more</a>
+        </div>
+    </div>
+    <!------------------contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>pillirohith55@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9553461049</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pilli-rohith-231970375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/the__unknown__64?igsh=NjJlczk5Mm93Mnk3"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Rohithpilli"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="DOC-20250816-WA0002..pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Rohith 2025</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0QYU7U7RjCepogf9f3TEi5-L9MvQewotfdr63FWdxmFeGmPQJJDjPYWR_KZ7Z9zX_4A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
